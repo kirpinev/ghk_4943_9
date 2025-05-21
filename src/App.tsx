@@ -11,8 +11,8 @@ export const App = () => {
   const [thxShow, setThx] = useState(LS.getItem(LSKeys.ShowThx, false));
 
   const submit = () => {
-    window.gtag("event", "5264_get_sub", {
-      variant_name: "5264_9",
+    window.gtag("event", "4943_get_sub", {
+      variant_name: "4943_9",
     });
 
     LS.setItem(LSKeys.ShowThx, true);
